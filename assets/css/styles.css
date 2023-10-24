@@ -1,0 +1,26 @@
+body{
+background-color: rgb(254, 245, 255);
+margin: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+color: rgb(0, 0, 153);
+font-size: larger;
+margin-bottom: 20px;
+border: black;
+}
+
+img{
+    border: 3px;
+    border-color: blue;
+
+}
+
+h1{
+color: rgb(22, 0, 110);
+}
+
+h2{
+color: rgb(56, 0, 109);
+}
