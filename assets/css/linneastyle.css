@@ -1,0 +1,99 @@
+.image{
+    background-color: rgb(147, 147, 147);
+    height: 250px;
+    background-size:cover;
+    background-position: center;
+    margin: 0px;
+    
+}
+.headerfp{
+    background-color: rgba(114, 114, 113, 0.7);
+    color: rgb(0, 0, 0);
+    
+}
+a.pertti{
+    color: rgb(48, 125, 0);
+    text-decoration: underline;
+    }
+
+a.pertti:hover {
+    color: rgb(163, 194, 139);
+    text-decoration: underline;
+    }
+
+
+img.pics:hover{
+    opacity: 1;
+    width: 250px;
+    height: auto;
+    margin: 0px;
+    border-radius: 10px;
+    min-width: 60px;
+    
+}
+img.pics{
+    opacity: 0.5;
+    width: 250px;
+    height: auto;
+    margin: 0px;
+    border-radius: 10px;
+    min-width: 60px;
+
+}
+
+figure.pics{
+    color: transparent;
+    
+
+}
+figure.pics:hover{
+    color: rgb(0, 69, 7);
+
+}
+
+figcaption.figc{
+    text-align: center;
+}
+
+.flexContainer {
+    padding: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: row;       
+}
+.flex-item {
+    padding: 10px;
+    flex: 25%;
+   
+  }
+@media screen and (max-width: 800px){
+.flexContainer {
+    padding: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;       
+}
+.pics{
+    margin-left: 20px;
+}
+}
+
+@media screen and (max-width: 800px){
+    .main {
+        Display: flex;
+    flex-direction: column;
+    }
+
+    ul.margin{
+        margin-top: 10%;
+      
+    }
+    
+    li{
+        text-align: center;
+    }
+}
