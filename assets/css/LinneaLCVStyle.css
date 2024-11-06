@@ -13,11 +13,6 @@ body .semiotsikko{
 body .tekstiteksti{
     font-size: small;
     padding-left: 10%;
-    -webkit-touch-callout: none;
-}
-body .tekstiteksti p{
-    -webkit-touch-callout: none;
-    user-select: text;
 }
 .sidebar {
     width: 28%;
@@ -64,8 +59,6 @@ body .tekstiteksti p{
     color: #eee5ff;
     font-size: smaller;
     font-family: monospace, Arial, Helvetica, sans-serif;
-    -webkit-touch-callout: none;
-    user-select: text;
 }
 .main-content {
     width: 72%;
@@ -168,15 +161,6 @@ body .tekstiteksti p{
     body {
         flex-direction: column;
         
-    }
-
-    body p{
-    -webkit-user-select: text; 
-    -ms-user-select: text;
-    user-select: text; 
-    white-space: nowrap; 
-    color: inherit; 
-    text-decoration: none; 
     }
     .sidebar {
         width: 100%;
