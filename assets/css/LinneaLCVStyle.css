@@ -169,6 +169,12 @@ body .tekstiteksti p{
         flex-direction: column;
         
     }
+
+    body p{
+        user-select: text;
+        -webkit-touch-callout: none;
+        color:inherit
+    }
     .sidebar {
         width: 100%;
         position: relative;
