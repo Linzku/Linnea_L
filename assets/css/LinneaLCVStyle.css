@@ -13,6 +13,10 @@ body .semiotsikko{
 body .tekstiteksti{
     font-size: small;
     padding-left: 10%;
+    -webkit-touch-callout: none;
+}
+body .tekstiteksti p{
+    -webkit-touch-callout: none;
 }
 .sidebar {
     width: 28%;
@@ -59,6 +63,7 @@ body .tekstiteksti{
     color: #eee5ff;
     font-size: smaller;
     font-family: monospace, Arial, Helvetica, sans-serif;
+    -webkit-touch-callout: none;
 }
 .main-content {
     width: 72%;
@@ -160,6 +165,7 @@ body .tekstiteksti{
 @media screen and (max-width: 800px) {
     body {
         flex-direction: column;
+        
     }
     .sidebar {
         width: 100%;
