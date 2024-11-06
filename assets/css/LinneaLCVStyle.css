@@ -6,7 +6,11 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
-
+a {
+    color: #eee5ff;             
+    text-decoration: none;    
+    cursor: pointer;        
+}
 body .semiotsikko{
     font-size: medium;
 }
