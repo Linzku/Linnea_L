@@ -6,6 +6,10 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+p {
+    -webkit-user-modify: read-write-plaintext-only;
+    user-select: text;
+}
 
 body .semiotsikko{
     font-size: medium;
@@ -160,8 +164,8 @@ body .tekstiteksti{
 @media screen and (max-width: 800px) {
     body {
         flex-direction: column;
-        
     }
+
     .sidebar {
         width: 100%;
         position: relative;
