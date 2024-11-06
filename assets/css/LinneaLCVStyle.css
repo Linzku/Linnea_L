@@ -17,6 +17,7 @@ body .tekstiteksti{
 }
 body .tekstiteksti p{
     -webkit-touch-callout: none;
+    user-select: text;
 }
 .sidebar {
     width: 28%;
@@ -64,6 +65,7 @@ body .tekstiteksti p{
     font-size: smaller;
     font-family: monospace, Arial, Helvetica, sans-serif;
     -webkit-touch-callout: none;
+    user-select: text;
 }
 .main-content {
     width: 72%;
