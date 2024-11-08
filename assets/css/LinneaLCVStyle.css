@@ -104,13 +104,13 @@ body .tekstiteksti{
     color: #eee5ff;
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
-.timeline {
+.aikalinja {
     margin-top: 10px;
 }
-.timeline-item {
+.aikalinja-item {
     margin-bottom: 10px;
 }
-.timeline-dot {
+.aikalinja-dot {
     width: 10px;
     height: 10px;
     background-color: black;
@@ -118,7 +118,7 @@ body .tekstiteksti{
     display: inline-block;
     margin-right: 10px;
 }
-.timeline-content {
+.aikalinja-content {
     display: inline-block;
 }
 .skill {
