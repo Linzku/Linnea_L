@@ -5,6 +5,34 @@ body {
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
+    background-color: #14062d;
+}
+.email-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.phone-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.email-icon {
+    margin-right: 5%;
+}
+.phone-icon {
+    margin-right: 5%;
+}
+.phone-text {
+    margin-right: 35%;
+}
+.iconi {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 2%;
 }
 a {
     color: #eee5ff;             
@@ -22,15 +50,16 @@ body .tekstiteksti{
     width: 28%;
     padding: 0;
     box-sizing: border-box;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 60;
     /* background-color: #ebd9fa; */
     background-color: #14062d;
     overflow: auto;
     color: #b691ff;
-    border-right: 2px solid #b691ff;
+    /* border-right: 2px solid #b691ff; */
 }
 .sidebar .profile-pic {
     width: 100%;
@@ -72,6 +101,7 @@ body .tekstiteksti{
     display: flex;
     flex-direction: column;
     background-color: #270943;
+    border-left: 2px solid #b691ff;
 }
 .columns {
     display: flex;
@@ -104,13 +134,13 @@ body .tekstiteksti{
     color: #eee5ff;
     font-family: monospace, Arial, Helvetica, sans-serif;
 }
-.aikalinja {
+.timeline {
     margin-top: 10px;
 }
-.aikalinja-item {
+.timeline-item {
     margin-bottom: 10px;
 }
-.aikalinja-dot {
+.timeline-dot {
     width: 10px;
     height: 10px;
     background-color: black;
@@ -118,7 +148,7 @@ body .tekstiteksti{
     display: inline-block;
     margin-right: 10px;
 }
-.aikalinja-content {
+.timeline-content {
     display: inline-block;
 }
 .skill {
@@ -165,6 +195,9 @@ body .tekstiteksti{
     body {
         flex-direction: column;
     }
+    .phone-text {
+        margin-right: 25%;
+    }
 
     .sidebar {
         width: 100%;
@@ -181,6 +214,7 @@ body .tekstiteksti{
         width: 100%;
         margin-left: 0;
         padding: 0;
+        border-left: none;
     }
     .columns {
         flex-direction: column;
