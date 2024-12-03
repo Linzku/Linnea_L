@@ -1,1 +1,1 @@
-Making a test cv with html.
+Making example html cv page.
